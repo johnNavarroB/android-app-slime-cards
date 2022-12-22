@@ -1,0 +1,294 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:context = ".MediumGameActivity"
+
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+
+    android:background = "@drawable/background_landscape_game_easy">
+
+
+    <ImageView
+        android:id = "@+id/stopTimeMedium"
+        android:layout_width = "100dp"
+        android:layout_height = "100dp"
+
+        android:background = "@drawable/chronos_stop"
+        android:contentDescription = "@string/description.stop_time"
+
+        app:layout_constraintTop_toTopOf = "parent"
+        android:layout_marginTop = "10dp"
+        app:layout_constraintStart_toEndOf = "@+id/chronometerMediumLayout"
+        android:layout_marginStart = "160dp"
+        app:layout_constraintEnd_toEndOf = "parent"/>
+
+
+    <ImageView
+        android:id = "@+id/firstCardMediumFront"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:alpha = "0"
+
+        android:background = "@drawable/blank_card"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toBottomOf = "@+id/chronometerMediumLayout"
+        android:layout_marginTop = "10dp"
+        app:layout_constraintStart_toStartOf = "parent"
+        android:layout_marginStart = "100dp"/>
+
+
+    <ImageView
+        android:id = "@+id/firstCardMediumBack"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:background = "@drawable/cute_slime_backcard"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toBottomOf = "@+id/chronometerMediumLayout"
+        android:layout_marginTop = "10dp"
+        app:layout_constraintStart_toStartOf = "parent"
+        android:layout_marginStart = "100dp"/>
+
+
+    <ImageView
+        android:id = "@+id/secondCardMediumFront"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:alpha = "0"
+
+        android:background = "@drawable/blank_card"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/firstCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/firstCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/secondCardMediumBack"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:background = "@drawable/cute_slime_backcard"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/firstCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/firstCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/thirdCardMediumFront"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:alpha = "0"
+
+        android:background = "@drawable/blank_card"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/secondCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/secondCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/thirdCardMediumBack"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:background = "@drawable/cute_slime_backcard"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/secondCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/secondCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/fourthCardMediumFront"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:alpha = "0"
+
+        android:background = "@drawable/blank_card"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/thirdCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/thirdCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/fourthCardMediumBack"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:background = "@drawable/cute_slime_backcard"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/thirdCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/thirdCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/fifthCardMediumFront"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:alpha = "0"
+
+        android:background = "@drawable/blank_card"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toBottomOf = "@+id/firstCardMediumFront"
+        android:layout_marginTop = "10dp"
+        app:layout_constraintStart_toStartOf = "parent"
+        android:layout_marginStart = "100dp"/>
+
+
+    <ImageView
+        android:id = "@+id/fifthCardMediumBack"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:background = "@drawable/cute_slime_backcard"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toBottomOf = "@+id/firstCardMediumFront"
+        android:layout_marginTop = "10dp"
+        app:layout_constraintStart_toStartOf = "parent"
+        android:layout_marginStart = "100dp"/>
+
+
+    <ImageView
+        android:id = "@+id/sixthCardMediumFront"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:alpha = "0"
+
+        android:background = "@drawable/blank_card"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/fifthCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/fifthCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/sixthCardMediumBack"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:background = "@drawable/cute_slime_backcard"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/fifthCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/fifthCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/seventhCardMediumFront"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:alpha = "0"
+
+        android:background = "@drawable/blank_card"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/sixthCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/sixthCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/seventhCardMediumBack"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:background = "@drawable/cute_slime_backcard"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/sixthCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/sixthCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/eighthCardMediumFront"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:alpha = "0"
+
+        android:background = "@drawable/blank_card"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/seventhCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/seventhCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <ImageView
+        android:id = "@+id/eighthCardMediumBack"
+        android:layout_width = "80dp"
+        android:layout_height = "140dp"
+
+        android:background = "@drawable/cute_slime_backcard"
+        android:contentDescription = "@string/description.card"
+
+        app:layout_constraintTop_toTopOf = "@+id/seventhCardMediumBack"
+        app:layout_constraintStart_toEndOf = "@+id/seventhCardMediumBack"
+        android:layout_marginStart = "50dp"/>
+
+
+    <LinearLayout
+        android:id = "@+id/chronometerMediumLayout"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+
+        android:orientation = "vertical"
+        android:gravity = "center"
+        android:background = "@drawable/chronometer_background"
+
+        app:layout_constraintTop_toTopOf = "parent"
+        android:layout_marginTop = "10dp"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent">
+
+
+        <Chronometer
+            android:id = "@+id/chronometerMedium"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+
+            android:textColor = "@color/black"
+            android:textStyle = "bold"
+            android:textSize = "36sp"
+
+            app:layout_constraintTop_toTopOf = "@+id/chronometerMediumLayout"
+            android:paddingTop = "5dp"
+            android:paddingBottom = "9dp"
+            app:layout_constraintStart_toStartOf = "parent"
+            android:paddingStart = "20dp"
+            app:layout_constraintEnd_toEndOf = "parent"
+            android:paddingEnd = "20dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

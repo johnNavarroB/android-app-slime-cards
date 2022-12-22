@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<TextView
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+
+    android:id = "@+id/spinner_style"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+
+    android:background = "@drawable/spinner_layout"
+    android:padding = "15dp"
+
+    android:text = "@string/sampleText"
+    android:gravity = "center"
+    android:textStyle = "bold"
+    android:textSize = "20sp"/>

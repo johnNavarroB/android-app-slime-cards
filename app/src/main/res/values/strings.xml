@@ -1,0 +1,46 @@
+<resources>
+
+    <string name = "app_name">Slime Cards</string>
+    <string name = "playButton">Play</string>
+    <string name = "helpButton">Help</string>
+    <string name = "helpOkButton">OK!</string>
+    <string name = "returnToMenuButton">Menu</string>
+    <string name = "replayButton">Replay</string>
+    <string name = "helpTitle">Memory Game</string>
+    <string name = "sampleText">@string/difficultyMenuOption1</string>
+    <string name = "sampleTime">Time: 00:00</string>
+    <string name = "sampleDifficulty">Difficulty: easy</string>
+    <string name = "sampleScore">Score: 16.300</string>
+    <string name = "difficultyMenuOption1">Easy</string>
+    <string name = "difficultyMenuOption2">Medium</string>
+    <string name = "difficultyMenuOption3">Hard</string>
+    <string name = "label.menu_activity">Menu</string>
+    <string name = "label.difficultyTextView">Choose difficulty</string>
+    <string name = "description.splash_icon">Image icon for the splash screen</string>
+    <string name = "description.splash_title">Image title for the splash screen</string>
+    <string name = "description.play_game">Image title for the menu screen</string>
+    <string name = "description.stop_time">Stops the chronometer</string>
+    <string name = "description.card">A card that can be flipped</string>
+
+
+    <string name = "helpIntroduction">
+        This memory game consists in turning up a pair of cards of the same type.
+        If the cards are the same, they stay turned up, otherwise they turn back down.
+    </string>
+
+
+    <string name = "helpDetails">
+        The factors that change the game behaviour are time and difficulty.
+        Time is at the top of the screen and represents the period of time that the player takes to find all the pairs.
+        Difficulty is chosen at the menu screen, changes the amount of cards from 6 to 8 or 9 at easy, medium or hard respectively.
+        The points are given in function of how much time takes to find the pairs, and you get a slightly more amount of points for each group of three cards found in hard mode.
+    </string>
+
+
+    <string-array name = "difficulty">
+        <item>@string/difficultyMenuOption1</item>
+        <item>@string/difficultyMenuOption2</item>
+        <item>@string/difficultyMenuOption3</item>
+    </string-array>
+
+</resources>

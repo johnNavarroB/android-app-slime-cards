@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<resources>
+    <color name = "primary">#FFe100ed</color>
+    <color name = "primary_v1">#FFff5cff</color>
+    <color name = "primary_v2">#FFaa00ba</color>
+    <color name = "primary_70">#99000000</color>
+    <color name = "secondary">#FF6A1B9A</color>
+    <color name = "secondary_v1">#FF9c4dcc</color>
+    <color name = "secondary_v2">#FF38006b</color>
+    <color name = "readable">#FFce93d8</color>
+    <color name = "readable_V1">#FFffc4ff</color>
+    <color name = "readable_V2">#FF9c64a6</color>
+    <color name = "background">#FF29B6F6</color>
+    <color name = "background_v1">#FF73e8ff</color>
+    <color name = "background_v2">#FF0086c3</color>
+    <color name = "background_70">#9929B6F6</color>
+    <color name = "background_err">#FFB00020</color>
+    <color name = "bitmap">#00000000</color>
+    <color name = "black">#FF000000</color>
+    <color name = "gray">#88BBBBBB</color>
+    <color name = "white">#FFFFFFFF</color>
+</resources>
